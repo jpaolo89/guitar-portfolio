@@ -1,2 +1,2 @@
-# hello-wold
+# hello-world
 First Github Project
