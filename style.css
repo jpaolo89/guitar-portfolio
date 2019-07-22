@@ -24,9 +24,67 @@
 .primary-nav li: hover {
   background-color:#333;
   color: white;
+	transition: .1s color#headline h1 {
+	font-family:helvetica;
+	font-size: 40px;
+	line-height:1.4;
+	font-weight: bold;
+	font-style: oblique;
+	text-align: center;
+  background-color: black;
+  width: 400px;
+  padding: 50px;
+  border: 1px solid black;
+  margin: 10px;
+		}
+
+.primary-nav {
+	float: left;
+  padding: 25px 0;
+  width: 150px;
+  border-left: 1px solid #ada791;
+	background-color: #ffffff;
+}
+
+.primary-nav li: focus,
+.primary-nav li: hover {
+  background-color:#333;
+  color: white;
 	transition: .1s color linear, 1s background-color linear;
 }
 
-.box {
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
 
+.column {
+	float: left;
+  width: 300px;
+	margin-left: 30px;
+}
+
+.column:first-child {
+  margin-left: 0;
+}
+
+.button{
+  border: 2px solid #333;
+  color: #333;
+  padding: 10px 0;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+/* Clearfix allows styling of section to override collapse caused by using floats */ 
+.grouping:before,
+.grouping:after {
+  content: " ";
+  display: table;
+}
+.grouping:after {
+  clear: both;
 }
