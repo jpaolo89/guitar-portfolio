@@ -24,32 +24,6 @@
 .primary-nav li: hover {
   background-color:#333;
   color: white;
-	transition: .1s color#headline h1 {
-	font-family:helvetica;
-	font-size: 40px;
-	line-height:1.4;
-	font-weight: bold;
-	font-style: oblique;
-	text-align: center;
-  background-color: black;
-  width: 400px;
-  padding: 50px;
-  border: 1px solid black;
-  margin: 10px;
-		}
-
-.primary-nav {
-	float: left;
-  padding: 25px 0;
-  width: 150px;
-  border-left: 1px solid #ada791;
-	background-color: #ffffff;
-}
-
-.primary-nav li: focus,
-.primary-nav li: hover {
-  background-color:#333;
-  color: white;
 	transition: .1s color linear, 1s background-color linear;
 }
 
